@@ -35,16 +35,19 @@ $a = addslashes($str);  //對字串中的特殊字元進行轉義
 ```
 
 ### addslashes()返回字符串，該字符串為了數據庫查詢語句等的需要在某些字符前加上了反斜線。
-### 例:<?php
+### 例:
+```
+<?php
 $str = "Is your name O'reilly?";
 
 // 輸出：Is your name O\'reilly?
 echo addslashes($str);
 ?>
 ```
-
 ### stripslashes()該函數用於清理從數據庫或HTML表單中取回的數據。
-### 例:<?php
+### 例:
+```
+<?php
 echo stripslashes("Who\'s John Adams?") ;
 ?>
 ```
