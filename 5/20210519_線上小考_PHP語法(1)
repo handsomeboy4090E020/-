@@ -19,21 +19,22 @@ A.ASP.NET  B.JavaScript  C. JSP   D.PHP
 # (3).下列何者可用來在HTML文件中標示PHP程式碼區塊？(複選) 
 ```
 A. < 和 />        B.  <?php 和 ?>     C. <? 和 ?>      D.  <% 和 %>
-答案:B
+答案:B.C.D
 ```
 # 註:請舉範例證明
 ```
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>我的第一個PHP程式</title>
-  </head>
-  <body>
-    <?php
-      include_once("demo.inc");
-    ?>
-  </body>
+ <head>
+ <meta charset="utf-8">
+<title>我的第一個 PHP 程式</title>
+</head>
+<body>
+ <?php
+echo("Hello World!");
+ phpinfo();
+ ?>
+ </body>
 </html>
 ```
 ---
